@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    // char a = 'a';
+    printf("%lu\n", sizeof(char));
+    printf("%lu\n", sizeof(int));
+    printf("%lu\n", sizeof(float));
+    printf("%lu\n", sizeof(double));
+    printf("%lu\n", sizeof(long));
+    
+    printf("%lu\n", sizeof(long long));
+    printf("%lu\n", sizeof(int));
+    // printf("%d\n", sizeof());
+    return 0;
+}
