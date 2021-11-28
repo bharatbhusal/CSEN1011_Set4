@@ -14,7 +14,7 @@ int main()
     scanf("%d %d", &a, &b);
 
     // assinging values to CHARACTER variable 
-    printf("Select Choice: \nA: A + B\nB: A - B\nC: A * B\nD: A / B\n");
+    printf("Select Choice: \n\"+\": A + B\n\"-\": A - B\n\"*\": A * B\n\"/\": A / B\n");
     scanf(" %c", &ch);
 
     printf("***********\n");
@@ -22,31 +22,31 @@ int main()
     // switchnig to cases for different MATHEMATICAL OPERATIONS
     switch(ch)
     {
-        // if value of ch is a then ADDITION case is executed and rest of the statementes below this case is skipped
-        case 'a':
+        // if value of ch is + then ADDITION case is executed and rest of the statementes below this case is skipped
+        case '+':
             c = a + b;
             printf("%d + %d: %d\n", a, b, c);
             break;      //break skipps all statements below the line of the block or function
 
-        // if value of ch is b then SUBTRACTION case is executed and rest of the statementes below this case is skipped
-        case 'b':
+        // if value of ch is - then SUBTRACTION case is executed and rest of the statementes below this case is skipped
+        case '-':
             c = a - b;
             printf("%d - %d: %d\n", a, b, c);
             break;
 
-        // if value of ch is C then MULTIPLICATION case is executed and rest of the statementes below this case is skipped
-        case 'c':
+        // if value of ch is * then MULTIPLICATION case is executed and rest of the statementes below this case is skipped
+        case '*':
             c = a * b;
             printf("%d * %d: %d\n", a, b, c);
             break;
 
-        // if value of ch is d then DIVISION case is executed and rest of the statementes below this case is skipped
-        case 'd':
+        // if value of ch is / then DIVISION case is executed and rest of the statementes below this case is skipped
+        case '/':
             c = a / b;
             printf("%d / %d: %d\n", a, b, c);
             break;
 
-        // if value of ch is anything other than a, b, c or d, than the DEFAULT case of switch function is executed and rest of the statements below this case is skipped 
+        // if value of ch is anything other than +, -, *, / than the DEFAULT case of switch function is executed and rest of the statements below this case is skipped 
         default:
             printf("Invalid Choice!!!\n");
             break;
@@ -54,4 +54,3 @@ int main()
 
     return 0;
 }
-

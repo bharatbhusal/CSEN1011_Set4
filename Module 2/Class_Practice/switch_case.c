@@ -1,18 +1,18 @@
-// importing header file 
+// importing HEADER FILE 
 #include <stdio.h>
 
-// main function 
+// MAIN function 
 int main()
 {
 
-    // declaring integer variable
+    // declaring INTEGER variable
     int x;
 
-    // assinging value to the integer 
+    // assinging value to the variable 
     printf("Enter a number: ");
     scanf("%d", &x);
 
-    // switch cases for displaying the input number 
+    // switch cases for DISPLAYING the input number 
     switch (x)
     {
 

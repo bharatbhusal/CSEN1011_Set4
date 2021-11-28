@@ -1,11 +1,11 @@
-// importing header file 
+// importing HEADER FILE 
 #include <stdio.h>
 
-// main function 
+// MAIN function 
 int main()
 {
 
-    // declaring character variable
+    // declaring CHARACTER variable
     char grade;
 
     // assinging value to the variable
@@ -51,7 +51,7 @@ int main()
             break;
     }
 
-    // display the result 
+    // DISPLAYING the result 
     printf("Your grade is %c\n", grade);
     return 0;
 }
