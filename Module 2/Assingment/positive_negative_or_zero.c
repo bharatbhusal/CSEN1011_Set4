@@ -3,25 +3,26 @@
 int main()
 {
     int a;
-    char s;
+
 
     printf("Enter the number: ");
     scanf("%d", &a);
 
-    if (a < 0) s = 'n';
-    else if (a > 0) s = 'p';
-    else if (a == 0) s = 'z';
-
-    switch (s)
+    switch (a>0)
     {
-        case 'n':
-            printf("The number is Less than zero(negative)!!\n");
+        case 0:
+            switch (a = 0)
+            {
+                case 0:
+                    printf("The number is Less than zero(negative)!!\n");
+                    break;
+                case 1:
+                    printf("The number is equal to zero(0)!!\n");
+                    break;
+            }
             break;
-        case 'p':
+        case 1:
             printf("The number is greater than zero(Positive)!!\n");
-            break;
-        case 'z':
-            printf("The number is equal to zero(0)!!\n");
             break;
         default:
             printf("Invalid nummber.\n");
