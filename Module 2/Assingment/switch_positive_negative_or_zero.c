@@ -28,8 +28,5 @@ int main()
             printf("Invalid nummber.\n");
             break;
     }
-
     return 0;
 }
-
-//wrong!!
