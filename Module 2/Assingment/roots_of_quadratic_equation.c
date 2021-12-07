@@ -8,13 +8,13 @@ int main()
     float dis;
 
     printf("Enter coefficient of second order of x in the equation: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("Enter coefficient of first order of x in the equation: ");
-    scanf("%d", &b);
+    scanf("%f", &b);
     printf("Enter the constant value of the equation: ");
-    scanf("%d", &c);
+    scanf("%f", &c);
     
-    dis = (pow(b, 2) - 4*a*c);
+    dis = pow(b, 2) - 4*a*c;
     r1 = (- b + sqrt(dis))/(2*a); 
     r2 = (- b - sqrt(dis))/(2*a); 
 
@@ -24,7 +24,7 @@ int main()
     }
     else 
     {
-        printf("The imaginary roots of the given equation are: %.2f and %.2f\n", r1, r2);
+        printf("The roots of the given equation are imaginary.\n");
     }
     return 0;
 }
