@@ -6,9 +6,10 @@ int main()
     int i = 0;
     int temp;
     int r_num = 0;
-    
     printf("Enter the number:");
     scanf("%d", &num);
+
+    int n_num = num;
     
     while (num != 0)
     {
@@ -17,7 +18,8 @@ int main()
         num /= 10;
 
     }
-    printf("%d", r_num);
+    if (n_num == r_num)
+        printf("palindromme!!\n");
 
     return 0;
 }
