@@ -36,6 +36,11 @@ int main()
             printf("%d / %d: %d\n", *a, *b, c);
             break; 
 
+        case ('%'):
+            c = *a % *b;
+            printf("%d %% %d: %d\n", *a, *b, c);
+            break;
+
         default:
             printf("Invalid Choice!!!\n");
             break;
