@@ -4,7 +4,7 @@ int x;
 
 void autoStorageClass()
 {
-    printf("\n Demonstrating auto class\n");
+    printf("\nDemonstrating auto class\n");
     auto int a = 32;
     printf("Value of the variable 'a' declared as auto %d\n", a);
     printf("--------------");
@@ -12,7 +12,7 @@ void autoStorageClass()
 
 void registerStorageClass()
 {
-    printf("\n Demonstrating register class \n");
+    printf("\nDemonstrating register class \n");
     register char b = 'G';
     printf("Value of the variable 'b' declared as registerL %d\n", b);
     printf("-----------");
@@ -46,7 +46,7 @@ void staticStorageClass()
 
     }
     printf("\nLoop ended!!\n");
-    printf("--------------");
+    printf("--------------\n");
 }
 
 int main()
@@ -56,8 +56,7 @@ int main()
     registerStorageClass();
     externStorageClass();
     staticStorageClass();
-    printf("\nStorage Classes demonstrated");
-
+    printf("\nStorage Classes demonstrated\n");
 
     return 0;
 }

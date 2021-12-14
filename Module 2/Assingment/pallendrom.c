@@ -19,7 +19,7 @@ int main()
 
     }
     if (n_num == r_num)
-        printf("palindromme!!\n");
+        printf("palindrome!!\n");
 
     return 0;
 }

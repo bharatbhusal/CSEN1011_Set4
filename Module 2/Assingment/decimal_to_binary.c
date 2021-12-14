@@ -2,10 +2,10 @@
   
 int main()  
 {  
-    long long num, bin = 0, rem = 0, place = 1;  
+    int num, bin = 0, rem = 0, place = 1;  
   
-    printf("Enter a decimal number\n");  
-    scanf("%llu", &num);  
+    printf("Enter a decimal number: ");  
+    scanf("%d", &num);  
   
     printf("\nBinary equivalent of %d is ", num);  
     while(num)  
@@ -15,7 +15,7 @@ int main()
         bin += (rem * place);  
         place *= 10;  
     }  
-    printf("%llu\n", bin);  
+    printf("%d\n", bin);  
   
     return 0;  
 }  
