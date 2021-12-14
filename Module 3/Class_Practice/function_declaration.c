@@ -3,6 +3,8 @@
 void func(void);
 
 static int count = 5; //global variable
+
+
 int main()
 {
     while(count--)

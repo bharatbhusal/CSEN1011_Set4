@@ -18,10 +18,10 @@ int main()
     for (j = 0; j < i; j++)
     {
         sum += (pow(-1, j)*pow(x, 2*j))/fact(2*j);
-        printf("Sum%d : %f\n", j+1, sum);
+        // printf("Sum%d : %.2f\n", j+1, sum);
         
     }
-    printf("\n%f\n", sum);
+    printf("\nThe Sum of the series upto %dth term is %f\n", i, sum);
     return 0;
 }
 
