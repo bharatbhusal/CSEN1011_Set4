@@ -17,13 +17,11 @@ int main()
     // working with cases
     if (num>>(n)&1)
     {
-
         // if bit is set
-        printf("The %dth bit is set(1).\n", n);
+        printf("The %dth bit is set(1).\n", num>>n);
     }
     else
     {
-
         // if bit is not set
         printf("The %dth bit is not set(0).\n", n);
     }

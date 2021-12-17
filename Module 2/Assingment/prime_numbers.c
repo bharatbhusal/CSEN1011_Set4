@@ -23,15 +23,12 @@ int main()
             if(i%c == 0)
                 break;
         }
-
         if(c == i)  // c is prime
         {
             printf("%d ", i);
             count++;    // increment the count of prime numbers
         }
-
     }
-
-        printf("\n");
+    printf("\n");
     return 0;
 }
