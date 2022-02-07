@@ -1,3 +1,5 @@
+//Linear Search
+
 #include <stdio.h>
 int l_search(int [], int, int);
 

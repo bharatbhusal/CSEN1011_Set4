@@ -1,3 +1,5 @@
+//Binary Iterative Search
+
 #include <stdio.h>
 
 int b_search(int [], int, int, int);
