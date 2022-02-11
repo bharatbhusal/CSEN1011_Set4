@@ -17,7 +17,7 @@ int main()
     strcpy(b1.title, "Problem Solving with C Programming");
     strcpy(b1.author, "Balaguruswami");
     strcpy(b1.subject, "C Programming");
-    b1.title= "Hi there";
+    // b1.title= "Hi there";
     b1.book_id = 3245;
     strcpy(b2.title, "OOP in Python");
     strcpy(b2.author, "Zara Ali");
